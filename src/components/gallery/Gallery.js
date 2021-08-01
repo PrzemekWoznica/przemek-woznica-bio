@@ -1,10 +1,10 @@
 import React from 'react'
 import './Gallery.css'
 
-function gallery() {
+function gallery(props) {
     return (
         <section className="gallery" id="gallery">
-            <h1>Gallery</h1>
+            {props.children}
         </section>
     )
 }
