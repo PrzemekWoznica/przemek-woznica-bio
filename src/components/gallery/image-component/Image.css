@@ -9,3 +9,18 @@
 image:hover{
     opacity: 0.4;
 }
+
+@media screen and (max-width: 950px) {
+    .gallery img {
+        transform: translateY(0vh);
+        width: 50%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .gallery img {
+        transform: translateY(0vh);
+        width: 50%;
+        height: 300px;
+    }
+}

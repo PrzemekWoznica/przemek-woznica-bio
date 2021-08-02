@@ -18,7 +18,7 @@ a{
     width: 20%;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 a:hover{
@@ -62,5 +62,17 @@ a:hover{
     }
     100%{
         color: red;
+    }
+}
+@media screen and (max-width: 950px) {
+        a{
+            color: rgb(100, 100, 100);
+            font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    a{
+        font-size: 15px;
     }
 }

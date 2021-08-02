@@ -1,3 +1,103 @@
 .personal-data{
-    background-color: seagreen;
+    background: url("../../backgrounds/technology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    
+   
+
+}
+
+.data-container{
+    height: 80vh;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-container h1{
+    color: white;
+    font-size: 5em;
+    letter-spacing: 10px;
+}
+
+.data-container p{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.greeting{
+    color:white;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 950px){
+    .data-container{
+        padding: 0 50px;
+    }
+    
+    .data-container h1{
+        font-size: 3em;
+        letter-spacing: 4px;
+    }
+    
+    .data-container p{
+        line-height: 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .greeting{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 520px){
+    .data-container{
+        padding: 0 50px;
+    }
+    
+    .data-container h1{
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+    
+    .data-container p{
+        line-height: 13px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .greeting{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height: 520px){
+    .data-container{
+        padding: 0 50px;
+    }
+    
+    .data-container h1{
+        font-size: 3em;
+        letter-spacing: 4px;
+    }
+    
+    .data-container p{
+        line-height: 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .greeting{
+        margin-top: 15px;
+        font-size: 15px;
+    }
 }
