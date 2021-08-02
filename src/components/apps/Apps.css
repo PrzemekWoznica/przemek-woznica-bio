@@ -7,3 +7,63 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.apps-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apps-content h3{
+    color: white;
+    font-size: 50px;
+}
+
+.apps-content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 70px;
+    margin: 15px;
+    font-size: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid yellow;
+    transition-duration: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.apps-content a:hover{
+    background-color: rgba(219, 223, 15, 0.8);
+    box-shadow: 0 0 20px yellow;
+    color: black;
+}
+
+.apps-content a:active{
+    background-color: rgb(82, 83, 7);
+}
+
+@media screen and (max-height: 520px){
+    section.apps, .apps-content {
+        height: fit-content;
+    }
+    .apps-content{
+        margin-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 520px){
+
+    .apps-content h3{
+        font-size: 30px;
+    }
+    .apps-content a{
+        font-size: 15px;
+    }
+
+}

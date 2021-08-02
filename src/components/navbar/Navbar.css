@@ -10,7 +10,7 @@
     z-index: 9999;
 }
 
-a{
+.navbar-container a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ a{
     font-size: 30px;
 }
 
-a:hover{
+.navbar-container a:hover{
     background-color: rgba(50, 50, 50, 0.6);
 }
 
