@@ -35,12 +35,44 @@
 }
 .greeting{
     color:white;
-    margin-top: 30px;
+    margin: 30px;
     font-style: italic;
     font-size: 20px;
 }
 
 @media screen and (max-width: 950px){
+    section.personal-data, .data-container {
+        height: fit-content;
+    }
+    .data-container{
+        margin-top: 10vh;
+        padding: 0 100px;
+    }
+    
+    .data-container h1{
+        font-size: 4em;
+        letter-spacing: 7px;
+    }
+    
+    .data-container p{
+        line-height: 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .greeting{
+        margin: 20px;
+
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    section.personal-data, .data-container {
+        height: fit-content;
+    }
+    .data-container{
+        margin-top: 10vh;
+    }
+
     .data-container{
         padding: 0 50px;
     }
@@ -51,32 +83,13 @@
     }
     
     .data-container p{
-        line-height: 20px;
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    .greeting{
-        margin-top: 15px;
-        font-size: 15px;
-    }
-}
-@media screen and (max-width: 520px){
-    .data-container{
-        padding: 0 50px;
-    }
-    
-    .data-container h1{
-        font-size: 2em;
-        letter-spacing: 1px;
-    }
-    
-    .data-container p{
-        line-height: 13px;
+        line-height: 15px;
         font-size: 10px;
         letter-spacing: 1px;
     }
     .greeting{
-        margin-top: 10px;
+        margin: 10px;
+
         font-size: 10px;
     }
 }
@@ -92,12 +105,32 @@
     }
     
     .data-container p{
-        line-height: 20px;
-        font-size: 15px;
+        line-height: 15px;
+        font-size: 10px;
         letter-spacing: 1px;
     }
     .greeting{
-        margin-top: 15px;
-        font-size: 15px;
+        margin: 10px;
+
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height: 520px) and (max-width: 520px){
+    
+    .data-container h1{
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    
+    .data-container p{
+        line-height: 10px;
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+    .greeting{
+        margin: 7px;
+
+        font-size: 7px;
     }
 }
