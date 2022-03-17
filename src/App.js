@@ -9,7 +9,7 @@ import Popup from './components/popup/Popup';
 import cv from './images/cv.jpg';
 import chillout from './images/chillout.jpg';
 import old from './images/old.jpg';
-import safety from './images/safety.jpg';
+import safety from './images/safety.jpeg';
 
 
 function App() {
