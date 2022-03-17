@@ -6,7 +6,10 @@ import Gallery from './components/gallery/Gallery';
 import Apps from './components/apps/Apps';
 import Image from './components/gallery/image-component/Image';
 import Popup from './components/popup/Popup';
-import cv from '../public/images/cv.jpg';
+import cv from './images/cv.jpg';
+import chillout from './images/chillout.jpg';
+import old from './images/old.jpg';
+import safety from './images/safety.jpg';
 
 
 function App() {
@@ -21,13 +24,13 @@ function App() {
           <Image src={cv} alt='Formal View' 
             selectImage={() => setImage('/images/cv.jpg')}
             triggerOnClick={() => setTrigger(true)}/>
-          <Image src='/images/chillout.jpg' alt='On My Way' 
+          <Image src={chillout} alt='On My Way' 
             selectImage={() => setImage('/images/chillout.jpg')}
             triggerOnClick={() => setTrigger(true)}/>
-          <Image src='/images/old.jpg' alt='Tomorrow' 
+          <Image src={old} alt='Tomorrow' 
             selectImage={() => setImage('/images/old.jpg')}
             triggerOnClick={() => setTrigger(true)}/>
-          <Image src='/images/safety.jpeg' alt='#COVID' 
+          <Image src={safety} alt='#COVID' 
             selectImage={() => setImage('/images/safety.jpeg')}
             triggerOnClick={() => setTrigger(true)}/>
         </Gallery>      
