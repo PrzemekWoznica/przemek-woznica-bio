@@ -6,6 +6,8 @@ import Gallery from './components/gallery/Gallery';
 import Apps from './components/apps/Apps';
 import Image from './components/gallery/image-component/Image';
 import Popup from './components/popup/Popup';
+import cv from '../public/images/cv.jpg';
+
 
 function App() {
   const [image, setImage] = useState('');
@@ -16,7 +18,7 @@ function App() {
         <Navbar />
         <Data />
         <Gallery>
-          <Image src='/images/cv.jpg' alt='Formal View' 
+          <Image src={cv} alt='Formal View' 
             selectImage={() => setImage('/images/cv.jpg')}
             triggerOnClick={() => setTrigger(true)}/>
           <Image src='/images/chillout.jpg' alt='On My Way' 
