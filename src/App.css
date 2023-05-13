@@ -17,3 +17,28 @@ html{
     height: 100vh;
     width: 100%;
 }
+
+.header{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 10px;
+    margin: 10px auto;
+}
+
+.data-container{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}

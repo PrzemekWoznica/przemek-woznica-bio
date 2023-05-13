@@ -1,0 +1,30 @@
+.skills{
+    background: url("../../backgrounds/city.jpg");
+    background-color: crimson;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+li{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.primary-list{
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(200, 200, 200, 0.3);
+
+
+}
+
+.secondary-list{
+    list-style-position: inside;
+}
