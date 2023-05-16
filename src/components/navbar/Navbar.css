@@ -7,7 +7,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 9999;
+    z-index: 2;
 }
 
 .navbar-container a{
@@ -15,53 +15,76 @@
     justify-content: center;
     align-items: center;
     min-height: 100%;
-    width: 20%;
+    width: 100%;
     text-decoration: none;
-    color: rgb(151, 150, 150);
+    color: white;
+    text-shadow: 3px 3px 5px yellow;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .navbar-container a:hover{
     background-color: rgba(50, 50, 50, 0.6);
 }
 
-.logo{
-    animation: colors 5s infinite linear;
+.navbar-list{
+    list-style-type: none;
 }
+
+.navbar-list li {
+    display: inline;
+    font-weight: 600;
+    font-size: 1em;
+    margin: 0;
+    animation: colors 6s infinite linear;
+}
+
+.navbar-list li:nth-child(2){
+    animation-delay: 1s;
+}
+
+.navbar-list li:nth-child(3){
+    animation-delay: 2s;
+}
+
+.navbar-list li:nth-child(4){
+    animation-delay: 3s;
+}
+
+.navbar-list li:nth-child(5){
+    animation-delay: 4s;
+}
+
+.navbar-list li:nth-child(6){
+    animation-delay: 5s;
+}
+
 
 @keyframes colors {
     0%{
         color: red;
     }
-    10%{
-        color: orange;
-    }
     20%{
         color: yellow;
-    }
-    30%{
-        color: lime;
     }
     40%{
         color: green;
     }
-    50%{
-        color: cyan;
-    }
     60%{
         color: blue;
     }
-    70%{
-        color: pink;
-    }
     80%{
-        color: violet;
-    }
-    90%{
         color:magenta;
     }
     100%{
         color: red;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+    .navbar-container a{
+        font-weight: 400;
+        font-size: 1.2em;
     }
 }

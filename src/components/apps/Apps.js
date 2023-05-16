@@ -3,8 +3,6 @@ import './Apps.css'
 
 function Apps() {
 
-
-
     return (
         <section className='apps' id='apps'>
             <div className='data-container'>

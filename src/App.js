@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Data from './components/personal-data/Data';
 import Skills from './components/skills/Skills';
 import Apps from './components/apps/Apps';
+import Photos from './components/photos/Photos';
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Data /> 
         <Skills />   
         <Apps />
+        <Photos />
       </div>
     </div>
   );

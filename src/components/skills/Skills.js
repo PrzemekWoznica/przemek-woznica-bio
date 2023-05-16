@@ -5,7 +5,7 @@ function Skills() {
     return (
         <section className='skills' id='skills'>
             <div className='data-container'>
-                <h1 className='header'>These are tools I know how to use</h1>
+                <h1 className='header'>These are tools I know</h1>
                 <ol className='primary-list'>
                     <li>
                         <p className='paragraph'>Frontend</p>

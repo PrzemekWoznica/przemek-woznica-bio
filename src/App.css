@@ -21,13 +21,13 @@ html{
 .header{
     color: white;
     font-size: 3em;
-    letter-spacing: 10px;
-    margin: 10px auto;
+    margin: 0.5em auto;
 }
 
 .data-container{
+    width: 100%;
     height: 100vh;
-    padding: 0 100px;
+    padding: 0 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,8 +37,23 @@ html{
 .paragraph{
     color: white;
     text-align: justify;
+    font-size: 1.5em;
     text-justify: inter-word;
-    line-height: 25px;
-    font-size: 20px;
-    letter-spacing: 2px;
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .header{
+        font-size: 2em;
+        margin: 10px;
+    }
+
+    .data-container{
+        padding: 0 1em;
+    }
+
+    .paragraph{
+        font-size: 1.5em;
+    }
 }

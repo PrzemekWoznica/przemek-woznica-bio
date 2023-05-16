@@ -8,23 +8,31 @@
     background-attachment: fixed;
 }
 
-
-li{
-    color: white;
-    font-size: 20px;
-    margin: 10px;
-}
-
 .primary-list{
     width: 100%;
-    border: 1px solid white;
-    padding: 10px 20px;
-    margin: 10px;
+    border: 2px solid white;
+    padding: 1em;
+    margin: 1em;
     background-color: rgba(200, 200, 200, 0.3);
-
-
 }
 
-.secondary-list{
+.primary-list > li{
+    color: white;
+    font-size: 1.7em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.secondary-list > li{
     list-style-position: inside;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .primary-list > li{
+        font-size: 1.2em;
+        margin-left: 1em;
+    }
 }

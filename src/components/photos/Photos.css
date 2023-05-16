@@ -1,0 +1,32 @@
+.photos{
+    background: url("../../backgrounds/evening.jpg");
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.photos-container{
+    width: 60%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    
+}
+
+.photos-container img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .photos-container{
+        width: 50%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+}
