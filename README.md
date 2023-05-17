@@ -22,6 +22,5 @@ To see working app click here:
 
         http://przemek-woznica-bio-dev.eu-north-1.elasticbeanstalk.com/
 
-Functions which you should add if have time:
-    -   adding media queries to CSS to look good on mobile devices
-    -   tests
+Todo:
+        - tests
