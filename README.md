@@ -20,7 +20,7 @@ To start app ready to deploy start docker:
 
 To see working app click here:
 
-        http://przemek-woznica-bio-dev.eu-north-1.elasticbeanstalk.com/
+        http://przemek-woznica-bio-dev2.eu-north-1.elasticbeanstalk.com/
 
 Todo:
         - tests
