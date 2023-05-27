@@ -8,7 +8,7 @@ function Skills() {
                 <h1 className='header'>These are tools I know</h1>
                 <ol className='primary-list'>
                     <li>
-                        <p className='paragraph'>Frontend</p>
+                        <p className='list-header'>Frontend</p>
                         <ul className='secondary-list'>
                             <li>HTML, CSS, JS</li>
                             <li>React framework</li>
@@ -16,7 +16,7 @@ function Skills() {
                     </li>
 
                     <li>
-                        <p className='paragraph'>Backend</p>
+                        <p className='list-header'>Backend</p>
                         <ul className='secondary-list'>
                             <li>Java</li>
                             <li>Spring framework</li>
@@ -24,7 +24,7 @@ function Skills() {
                     </li>
 
                     <li>
-                        <p className='paragraph'>Testing</p>
+                        <p className='list-header'>Testing</p>
                         <ul className='secondary-list'>
                             <li>JUnit</li>
                             <li>Mockito</li>
@@ -33,7 +33,7 @@ function Skills() {
                     </li>
 
                     <li>
-                        <p className='paragraph'>Cloud services</p>
+                        <p className='list-header'>Cloud services</p>
                         <ul className='secondary-list'>
                             <li>AWS (compute units, databases, storages, authentication)</li>
                             <li>Google</li>
@@ -41,7 +41,7 @@ function Skills() {
                     </li>
 
                     <li>
-                        <p className='paragraph'>Good to knoiw tools</p>
+                        <p className='list-header'>Special tools</p>
                         <ul className='secondary-list'>
                             <li>Docker</li>
                             <li>Git</li>

@@ -34,14 +34,6 @@ html{
     align-items: center;
 }
 
-.paragraph{
-    color: white;
-    text-align: justify;
-    font-size: 1.5em;
-    text-justify: inter-word;
-    
-}
-
 
 @media screen and (max-width: 600px){
     .header{
@@ -51,9 +43,5 @@ html{
 
     .data-container{
         padding: 0 1em;
-    }
-
-    .paragraph{
-        font-size: 1.5em;
     }
 }
